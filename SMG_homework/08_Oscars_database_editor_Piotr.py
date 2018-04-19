@@ -19,7 +19,7 @@ Provide your own modifications, as you please. For example, you could provide a 
 so that the user is able to remove a specific award and not all the awards for the given actor.
 '''
 
-file = '.\\8_Best_actor_and_actress_DB\\best_actor_and_actress_db'
+file = '.\\08_Best_actor_and_actress_DB\\best_actor_and_actress_db'
 
 list_of_dict = []
 with open(file, 'r', encoding='utf-8') as f:

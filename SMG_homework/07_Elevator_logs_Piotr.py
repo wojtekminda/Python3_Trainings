@@ -46,7 +46,7 @@ print('Start date:', start_date, '->', start_date_int)
 print('End   date:', end_date, '->', end_date_int)
 print()
 
-path = '.\\7_Elevator_logs_FILES\\logs.txt'
+path = '.\\07_Elevator_logs_FILES\\logs.txt'
 start_floor = 0
 distances = []
 with open(path, encoding='utf-8') as f:

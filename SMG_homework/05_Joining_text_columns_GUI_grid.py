@@ -10,7 +10,7 @@ from tkinter import *
 from tkinter import messagebox
 
 # Path
-directory = '.\\5_Joining_text_columns_FILES\\'
+directory = '.\\05_Joining_text_columns_FILES\\'
 
 # Files
 file1 = 'column1.txt'

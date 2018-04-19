@@ -4,7 +4,7 @@ Skip actors/actresses who won only one award. See 'What did they win their Oscar
 You may also follow implementation from that exercise (analyze the file as a list of dictionaries), but you may write a simpler implementation, too.
 '''
 
-file = '.\\8_Best_actor_and_actress_DB\\best_actor_and_actress_db'
+file = '.\\08_Best_actor_and_actress_DB\\best_actor_and_actress_db'
 
 list_of_dict = []
 with open(file, encoding='utf-8') as f:

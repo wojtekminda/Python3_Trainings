@@ -12,7 +12,7 @@ You may fix the directory and encoding of your choice.
 import os.path
 
 #Sciezka wzgledna
-directory = '.\\4_Stitching_a_book_FILES\\'
+directory = '.\\04_Stitching_a_book_FILES\\'
 
 file = "pages_count.txt"
 f = open(directory + file)

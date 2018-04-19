@@ -8,7 +8,7 @@ Both file paths may be fixed and hard-coded in the script.
 from tkinter import *
 
 #Sciezka wzgledna
-directory = '.\\5_Joining_text_columns_FILES\\'
+directory = '.\\05_Joining_text_columns_FILES\\'
 
 # Pliki
 file1 = 'column1.txt'

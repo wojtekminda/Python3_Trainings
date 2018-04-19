@@ -10,7 +10,7 @@ so that every line contains one of the provided words followed by the calculated
 '''
 
 #input_path = input('Provide a path to an input file: ')
-input_path = '.\\6_Analysis_report_FILES\\twinkle.txt'
+input_path = '.\\06_Analysis_report_FILES\\twinkle.txt'
 
 list_of_words_to_find = []
 list_of_percentages = []

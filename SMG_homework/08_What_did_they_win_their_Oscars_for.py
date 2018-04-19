@@ -30,7 +30,7 @@ This person won 2 awards for the following movies:
 Sophie's Choice; The Iron Lady
 '''
 
-file = '.\\8_Best_actor_and_actress_DB\\best_actor_and_actress_db'
+file = '.\\08_Best_actor_and_actress_DB\\best_actor_and_actress_db'
 
 list_of_dict = []
 with open(file, encoding='utf-8') as f:

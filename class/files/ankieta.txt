@@ -1,6 +1,0 @@
-Ola, yes
-Ala, no
-Misia, no
-Kasia, yes
-Basia, dupa
-Zuzia, yes

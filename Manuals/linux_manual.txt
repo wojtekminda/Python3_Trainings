@@ -1,0 +1,133 @@
+-------------------- IMPORTANT LINKS --------------------
+https://www.codecademy.com/articles/command-line-commands
+---------------------------------------------------------
+
+pwd
+outputs the name of the current working directory
+
+ls
+lists all files and directories in the working directory
+
+ls -a
+lists all contents, including hidden files and directories
+
+ls -l
+lists all contents of a directory in long format
+
+cd PATH
+switches you into the directory you specify
+
+clear
+clear the terminal window
+
+history
+shows terminal history
+
+mkdir DIRECTORY
+creates a new directory in the working directory
+
+touch FILE
+creates a new empty FILE inside the working directory
+
+cp FILE_1 FILE_2
+copy the contents of FILE_1 into FILE_2
+
+cp FILE DIRECTORY
+copy FILE into DIRECTORY
+
+mv FILE_1 FILE_2
+rename FILE_1 to FILE_2
+
+mv FILE DIRECTORY
+moves FILE to DIRECTORY
+
+rm FILE
+remove FILE
+
+rm -r DIRECTORY
+remove DIRECTORY 
+
+echo "TEXT"
+The echo command accepts the string "TEXT" as standard input,
+and echoes the string "TEXT" back to the terminal as standard output.
+
+echo "TEXT" > FILE
+The > command redirects the standard output to a FILE. "TEXT" is entered as the standard input.
+The standard output "TEXT" is redirected by > to the FILE.
+
+cat FILE
+outputs the contents of a FILE to the terminal
+
+>
+> takes the standard output of the command on the left, and redirects it to the file on the right
+> overwrites all original content
+
+>>
+>> takes the standard output of the command on the left and appends (adds) it to the file on the right
+
+<
+< takes the standard input from the file on the right and inputs it into the program on the left
+
+|
+| is a "pipe".
+The | takes the standard output of the command on the left, and pipes it as standard input to the command on the right.
+You can think of this as "command to command" redirection.
+
+wc FILE
+outputs the number of lines, words, and characters in FILE
+
+sort FILE
+takes the standard input and orders it alphabetically for the standard output
+
+uniq FILE
+uniq stands for "unique" and filters out adjacent, duplicate lines in a file
+
+sort FILE | uniq
+A more effective way to call uniq is to call sort to alphabetize a FILE, and "pipe" the standard output to uniq
+
+grep RE FILE
+grep stands for "global regular expression print".
+It searches FILE for lines that match a pattern and returns the results.
+
+grep -i RE FILE
+grep -i enables the command to be case insensitive.
+grep searches for capital or lowercase strings that match RE in FILE
+
+grep -R RE PATH
+grep -R searches all files in a directory and outputs filenames and lines containing matched results.
+-R stands for "recursive".
+
+grep -Rl RE PATH
+grep -Rl searches all files in a directory and outputs only filenames with matched results.
+-R stands for "recursive" and l stands for "files with matches".
+
+nano FILE
+opens a new text file named FILE in the nano text editor
+
+./ SCRIPT
+runs the script as an executable file, launching a new shell to run it
+
+source SCRIPT
+reads and executes commands from filename in the current shell environment
+
+alias NEW_COMMAND="OLD_COMMAND"
+alias command allows you to create keyboard shortcuts, or aliases, for commonly used commands
+
+export NEW_VARIABLE="OLD_VARIABLE"
+export makes the variable to be available to all child sessions initiated from the session you are in.
+This is a way to make the variable persist across programs.
+
+env
+The env command stands for "environment", and returns a list of the environment variables for the current user.
+The env command returns a number of variables, including PATH, PWD, PS1, and HOME.
+
+--- Example SCRIPT ---
+echo "Welcome, Wojciech Minda"
+
+alias hy="history"
+alias ll="ls -la"
+
+export USER="Wojciech Minda"
+export PS1=">> "
+----------------------
+

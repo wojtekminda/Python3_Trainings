@@ -1,0 +1,63 @@
+----------- IMPORTANT LINKS -----------
+https://www.atlassian.com/git/tutorials
+---------------------------------------
+
+git init
+The command sets up all the tools Git needs to begin tracking changes made to the project.
+Initalize an empty git repository in working directory.
+
+git status
+The command displays the state of the working directory and the staging area.
+It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.
+
+git add FILE or DIRECTORY
+The command adds a change in the working directory to the staging area.
+It tells Git that you want to include updates to a particular file in the next commit.
+
+git diff FILE or DIRECTORY
+The command shows the difference between the working directory and the staging area
+
+git commit -m "MESSAGE"
+The command permanently stores file changes from the staging area in the repository.
+
+git log
+The command shows a list of all previous commits.
+
+Backtracking
+git checkout HEAD filename	Discards changes in the working directory.
+git reset HEAD filename		Unstages file changes in the staging area.
+git reset COMMIT_SHA		Resets to a previous commit in your commit history.
+
+git branch
+Lists all a Git project's branches.
+
+git branch NEW_BRANCH
+Creates new branch.
+
+git checkout BRANCH_NAME
+Switching between branches.
+
+git merge BRANCH_NAME
+Updating branch which you are currently on to BRANCH_NAME.
+- The merge is "fast forward" when Git recognizes that BRANCH_NAME contains the most recent commit.
+  Git fast forwards master to be up to date with BRANCH_NAME.
+- Fixing merge conflicts.
+
+git branch -d BRANCH_NAME
+Deletes the branch specified.
+
+git clone REMOTE_LOCATION CLONE_NAME
+Clone a repository from REMOTE_LOCATION into a new directory CLONE_NAME.
+
+git remote -v
+Lists a Git project's remotes.
+
+git fetch
+Fetches work from the remote into the local copy.
+
+git merge origin/master
+Merges origin/master into your local branch.
+
+git push origin BRANCH_NAME
+Pushes a local branch to the origin remote.
+

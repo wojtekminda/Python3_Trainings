@@ -1,0 +1,85 @@
+--- Courses - Codecademy ---
+(00) - DONE - Welcome to Codecademy
+
+(10) - DONE - Learn Python
+
+(12) - TODO - Learn SQL
+(05) - TODO - SQL: Table Transformation
+(02) - TODO - SQL: Analyzing Business Metrics
+
+(03) - TODO - Learn HTML
+(11) - TODO - Learn CSS
+(04) - TODO - Make a Website
+(04) - TODO - Deploy a Website
+(03) - TODO - Learn Responsive Design
+(03) - TODO - Learn Sass
+
+(02) - DONE - Learn Git
+
+(03) - DONE - Learn the Command Line
+----------------------------
+
+
+--- Courses - Udemy ---
+(41) - TODO - Tim Buchalka  - Complete Python Masterclass
+(24) - TODO - Jose Portilla - Complete Python Bootcamp: Go from zero to hero in Python 3
+(21) - TODO - Jose Portilla - Learning Python for Data Analysis and Visualization
+(22) - TODO - Jose Portilla - Python for Data Science and Machine Learning Bootcamp
+(32) - TODO - Jose Portilla - Python and Django Full Stack Web Developer Bootcamp
+(09) - TODO - Jose Portilla - The Complete SQL Bootcamp
+-----------------------
+
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+
+
+---Data Analysis ---
+- Python - NumPy
+- Python - Pandas
+--------------------
+
+
+--- Data Visualization ---
+- Python - Matplotlib
+- Python - Seaborn
+--------------------------
+
+
+--- Web Development ---
+- Python - Django
+- Python - Flask
+- HTML5
+- CSS3
+-----------------------
+
+
+---Databases ---
+- SQL
+- MySQL
+- PostgreSQL
+----------------
+
+
+--- Machine/Deep Learning ---
+-----------------------------
+
+
+--- Big Data ---
+----------------
+
+
+--- GUI ---
+- Python - Tkinter
+- Python - PyQt
+-----------
+
+
+--- Need to know ---
+- PyCharm (Integrated Development Environment)
+- Git (Version Control System)
+- Linux (Operating System)
+--------------------
+
+

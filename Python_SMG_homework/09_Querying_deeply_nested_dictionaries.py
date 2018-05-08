@@ -37,7 +37,6 @@ assume the object being indexed is a list and convert the component to a number.
 isdigit() string method might prove useful.
 '''
 
-
 def fetch(nested_dictionary, path_of_keys):
     path_of_keys_list = path_of_keys.split('.')
     for key in path_of_keys_list:
@@ -46,7 +45,6 @@ def fetch(nested_dictionary, path_of_keys):
         else:
             return 'There are no such item!'
     return nested_dictionary
-
 
 SOLAR_SYSTEM = {
     'planets': {

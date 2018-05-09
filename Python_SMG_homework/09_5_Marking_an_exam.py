@@ -38,5 +38,34 @@ print(
 )
 '''
 
-def check():
-    pass
+def check(correct_answers_and_points, given_answers, as_perc=False):
+
+    max_points = 0
+    for pair in correct_answers_and_points:
+        max_points = max_points + pair['points']
+
+    points = 0
+    for i, answer in enumerate(given_answers):
+        if answer == correct_answers_and_points[i]['answer']:
+            points = points + correct_answers_and_points[i]['points']
+
+    if as_perc == True:
+        return (points / max_points) * 100
+
+    return points, max_points
+
+exam_key = [
+    {'answer': 'b', 'points': 2},
+    {'answer': 'c', 'points': 2},
+    {'answer': 'a', 'points': 1},
+    {'answer': 'c', 'points': 1},
+    {'answer': 'b', 'points': 1},
+    {'answer': 'b', 'points': 1},
+    {'answer': 'c', 'points': 4}
+]
+
+answers1 = ['b', 'c', 'a', 'c', 'b', 'b', 'c']
+answers2 = ['b', 'd', 'd', 'c', 'b', 'a', 'c']
+
+print(check(exam_key, answers1), check(exam_key, answers1, as_perc=True))   # prints: (12, 12) 100.0
+print(check(exam_key, answers2), check(exam_key, answers2, as_perc=True))   # prints: (8, 12) 66.66666666666667

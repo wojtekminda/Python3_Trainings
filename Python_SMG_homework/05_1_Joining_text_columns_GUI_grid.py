@@ -47,11 +47,11 @@ def ButtonMerge():
     with open(directory + file_merged, 'r') as f:
         data3 = f.read()
 
-    w6 = Label(root, text = "Merged columns", fg = "red")
-    w7 = Label(root, text = data3)
+    w6 = Label(root, text="Merged columns", fg="red")
+    w7 = Label(root, text=data3)
 
-    w6.grid(row=0, column = 2)
-    w7.grid(row=1, column = 2, sticky=N)
+    w6.grid(row=0, column=2)
+    w7.grid(row=1, column=2, sticky=N)
 
     messagebox.showinfo('Info', 'Created file -> \'merged_GUI_grid.txt\'')
 
@@ -72,10 +72,10 @@ filemenu = Menu(menu)
 menu.add_cascade(label="File", menu=filemenu)
 filemenu.add_command(label="Exit", command=root.destroy)
 
-w1 = Label(root, text="Column 1", fg = "red")
+w1 = Label(root, text="Column 1", fg="red")
 w2 = Label(root, text=data1)
 
-w3 = Label(root, text="Column 2", fg = "red")
+w3 = Label(root, text="Column 2", fg="red")
 w4 = Label(root, text=data2)
 
 w5 = Button(root, text="Merge!", width=35, command=ButtonMerge)

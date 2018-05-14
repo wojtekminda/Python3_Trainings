@@ -21,11 +21,20 @@ Just split on a single space!
 '''
 
 def replace_words(to_replace, replacement_dict):
-    to_replace = to_replace.split()
-    for i, word in enumerate(to_replace):
-        if word in replacement_dict:
-            to_replace[i] = replacement_dict[word]
-    return ' '.join(to_replace)
+    # PC: To rozwiazanie jest zupelnie dobre
+    #     (za wyjatkiem mojej drugiej uwagi nizej).
+    #     Natomiast Twoja funkcja tworzy dwie listy,
+    #     a moglaby tworzyc tylko jedna.
+    new_text = []
+    for word in to_replace.split():
+        # PC: Ponizsza petla jest niepotrzebna.
+        #     Nie po to istnieja slowniki.
+        #     Zastanow sie, czym ja zastapic.
+        for key in replacement_dict:
+            if word == key:
+                word = replacement_dict[key]
+        new_text.append(word)
+    return ' '.join(new_text)
 
 text = "We went to Wellington to find a nice place to eat. We think Wellington is nice!"
 print(text)

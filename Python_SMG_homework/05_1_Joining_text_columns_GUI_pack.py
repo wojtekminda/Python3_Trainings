@@ -57,14 +57,14 @@ left_frame = Frame(root)
 center_frame = Frame(root)
 right_frame = Frame(root)
 
-w1 = Label(left_frame, text = "Column 1", fg = "red")
-w2 = Label(left_frame, text = data1)
+w1 = Label(left_frame, text="Column 1", fg="red")
+w2 = Label(left_frame, text=data1)
 
-w3 = Label(center_frame, text = "Column 2", fg = "red")
-w4 = Label(center_frame, text = data2)
+w3 = Label(center_frame, text="Column 2", fg="red")
+w4 = Label(center_frame, text=data2)
 
-w5 = Label(right_frame, text = "Merged columns", fg = "red")
-w6 = Label(right_frame, text = data3)
+w5 = Label(right_frame, text="Merged columns", fg="red")
+w6 = Label(right_frame, text=data3)
 
 left_frame.pack(side=LEFT)
 center_frame.pack(side=LEFT)

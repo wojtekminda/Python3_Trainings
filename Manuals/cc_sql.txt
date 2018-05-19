@@ -1,4 +1,5 @@
 -------------------- IMPORTANT LINKS --------------------
+https://www.youtube.com/watch?v=-LwI4HMR_Eg&t=458s
 https://www.codecademy.com/articles/what-is-rdbms-sql
 https://www.codecademy.com/articles/sql-commands?r=master
 ---------------------------------------------------------

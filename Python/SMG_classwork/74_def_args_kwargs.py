@@ -1,3 +1,5 @@
+# https://www.agiliq.com/blog/2012/06/understanding-args-and-kwargs/
+
 def f(a, b, c=1, d=2, *args):
     print(a, b, c, d, args)
 

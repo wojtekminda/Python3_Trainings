@@ -35,10 +35,10 @@
 --------------------------------------------------------------------------------------------------------
 
 
----Data Analysis ---
+--- Data Analysis ---
 - Python - NumPy
 - Python - Pandas
---------------------
+---------------------
 
 
 --- Data Visualization ---
@@ -54,11 +54,12 @@
 -----------------------
 
 
----Databases ---
+--- Databases ---
 - SQL
 - MySQL
+- SQLite
 - PostgreSQL
-----------------
+-----------------
 
 
 --- Machine/Deep Learning ---

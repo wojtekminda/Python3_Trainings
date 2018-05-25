@@ -40,7 +40,11 @@ print(
 
 def check(correct_answers_and_points, given_answers, as_perc=False):
 
+    # PC: Wszystko tutaj dziala, ale moglibysmy zrobic to
+    #     w jednej petli, bez indeksow i z uzyciem zip().
     max_points = 0
+    # PC: Nazwa `pair` moze byc mylaca. Zwykle oznacza ona
+    #     tuple dlugosci 2, ale raczej nie slownik.
     for pair in correct_answers_and_points:
         max_points = max_points + pair['points']
 
@@ -49,7 +53,9 @@ def check(correct_answers_and_points, given_answers, as_perc=False):
         if answer == correct_answers_and_points[i]['answer']:
             points = points + correct_answers_and_points[i]['points']
 
-    if as_perc:
+    # PC: Tak nie piszemy. Zapamietaj! Wystarczy:
+    #         if as_perc:
+    if as_perc == True:
         return (points / max_points) * 100
 
     return points, max_points

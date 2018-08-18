@@ -36,30 +36,18 @@
 
 
 --- Data Analysis ---
-- Python - NumPy
-- Python - Pandas
 ---------------------
 
 
 --- Data Visualization ---
-- Python - Matplotlib
-- Python - Seaborn
 --------------------------
 
 
 --- Web Development ---
-- Python - Django
-- Python - Flask
-- HTML5
-- CSS3
 -----------------------
 
 
 --- Databases ---
-- SQL
-- MySQL
-- SQLite
-- PostgreSQL
 -----------------
 
 
@@ -72,8 +60,6 @@
 
 
 --- GUI ---
-- Python - Tkinter
-- Python - PyQt
 -----------
 
 

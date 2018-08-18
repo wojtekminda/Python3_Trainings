@@ -82,4 +82,3 @@
 - Git (Version Control System)
 - Linux (Operating System)
 --------------------
-

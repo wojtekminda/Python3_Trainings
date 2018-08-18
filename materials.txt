@@ -1,32 +1,32 @@
 --- Courses - Codecademy ---
-(00) - DONE - Welcome to Codecademy
+(00) Welcome to Codecademy
 
-(10) - DONE - Learn Python
+(10) Learn Python
 
-(12) - TODO - Learn SQL
-(05) - TODO - SQL: Table Transformation
-(02) - TODO - SQL: Analyzing Business Metrics
+(12) Learn SQL
+(05) SQL: Table Transformation
+(02) SQL: Analyzing Business Metrics
 
-(03) - TODO - Learn HTML
-(11) - TODO - Learn CSS
-(04) - TODO - Make a Website
-(04) - TODO - Deploy a Website
-(03) - TODO - Learn Responsive Design
-(03) - TODO - Learn Sass
+(03) Learn HTML
+(11) Learn CSS
+(04) Make a Website
+(04) Deploy a Website
+(03) Learn Responsive Design
+(03) Learn Sass
 
-(02) - DONE - Learn Git
+(02) Learn Git
 
-(03) - DONE - Learn the Command Line
+(03) Learn the Command Line
 ----------------------------
 
 
 --- Courses - Udemy ---
-(41) - TODO - Tim Buchalka  - Complete Python Masterclass
-(24) - TODO - Jose Portilla - Complete Python Bootcamp: Go from zero to hero in Python 3
-(21) - TODO - Jose Portilla - Learning Python for Data Analysis and Visualization
-(22) - TODO - Jose Portilla - Python for Data Science and Machine Learning Bootcamp
-(32) - TODO - Jose Portilla - Python and Django Full Stack Web Developer Bootcamp
-(09) - TODO - Jose Portilla - The Complete SQL Bootcamp
+(24) Jose Portilla - Complete Python Bootcamp: Go from zero to hero in Python 3
+(21) Jose Portilla - Learning Python for Data Analysis and Visualization
+(22) Jose Portilla - Python for Data Science and Machine Learning Bootcamp
+(32) Jose Portilla - Python and Django Full Stack Web Developer Bootcamp
+(09) Jose Portilla - The Complete SQL Bootcamp
+(41) Tim Buchalka  - Complete Python Masterclass
 -----------------------
 
 
@@ -49,6 +49,7 @@
 
 --- Web Development ---
 - Python - Django
+- Python - Flask
 - HTML5
 - CSS3
 -----------------------
@@ -81,5 +82,4 @@
 - Git (Version Control System)
 - Linux (Operating System)
 --------------------
-
 

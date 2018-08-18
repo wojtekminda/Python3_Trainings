@@ -39,3 +39,4 @@ print(my_electric_car.display_car())
 print(my_electric_car.condition)
 my_electric_car.drive_car()
 print(my_electric_car.condition)
+

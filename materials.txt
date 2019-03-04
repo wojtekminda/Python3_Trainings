@@ -1,25 +1,3 @@
---- Courses - Codecademy ---
-(00) Welcome to Codecademy
-
-(10) Learn Python
-
-(12) Learn SQL
-(05) SQL: Table Transformation
-(02) SQL: Analyzing Business Metrics
-
-(03) Learn HTML
-(11) Learn CSS
-(04) Make a Website
-(04) Deploy a Website
-(03) Learn Responsive Design
-(03) Learn Sass
-
-(02) Learn Git
-
-(03) Learn the Command Line
-----------------------------
-
-
 --- Courses - Udemy ---
 (24) Jose Portilla - Complete Python Bootcamp: Go from zero to hero in Python 3
 (21) Jose Portilla - Learning Python for Data Analysis and Visualization

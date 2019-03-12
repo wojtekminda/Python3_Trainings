@@ -4,7 +4,7 @@
 (22) Jose Portilla - Python for Data Science and Machine Learning Bootcamp
 (32) Jose Portilla - Python and Django Full Stack Web Developer Bootcamp
 (09) Jose Portilla - The Complete SQL Bootcamp
-(41) Tim Buchalka  - Complete Python Masterclass
+(42) Tim Buchalka  - Complete Python Masterclass
 -----------------------
 
 

@@ -13,36 +13,50 @@
 --------------------------------------------------------------------------------------------------------
 
 
+--- Web Development ---
+() Python -> Django
+() HTML5
+() CSS3
+-----------------------
+
+
 --- Data Analysis ---
+() Python -> NumPy
+() Python -> SciPy
+() Python -> Pandas
 ---------------------
 
 
 --- Data Visualization ---
+() Python -> Matplotlib
+() Python -> Seaborn
 --------------------------
 
 
---- Web Development ---
------------------------
-
-
---- Databases ---
------------------
-
-
 --- Machine/Deep Learning ---
+() Python -> SciKit-Learn
+() Python -> TensorFlow
+() Python -> Keras
 -----------------------------
 
 
+--- Databases ---
+() SQL -> Postgres
+-----------------
+
+
 --- Big Data ---
+() Python -> PySpark
 ----------------
 
 
 --- GUI ---
+() Python -> Tkinter
 -----------
 
 
 --- Need to know ---
-- PyCharm (Integrated Development Environment)
 - Git (Version Control System)
 - Linux (Operating System)
+- PyCharm (Integrated Development Environment)
 --------------------

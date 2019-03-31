@@ -1,9 +1,13 @@
 --- Courses - Udemy ---
 (24) Jose Portilla - Complete Python Bootcamp: Go from zero to hero in Python 3
-(21) Jose Portilla - Learning Python for Data Analysis and Visualization
-(22) Jose Portilla - Python for Data Science and Machine Learning Bootcamp
-(32) Jose Portilla - Python and Django Full Stack Web Developer Bootcamp
+
 (09) Jose Portilla - The Complete SQL Bootcamp
+
+(22) Jose Portilla - Python for Data Science and Machine Learning Bootcamp
+(21) Jose Portilla - Learning Python for Data Analysis and Visualization
+
+(32) Jose Portilla - Python and Django Full Stack Web Developer Bootcamp
+
 (42) Tim Buchalka  - Complete Python Masterclass
 -----------------------
 
@@ -11,13 +15,6 @@
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
-
-
---- Web Development ---
-() Python -> Django
-() HTML5
-() CSS3
------------------------
 
 
 --- Data Analysis ---
@@ -40,14 +37,14 @@
 -----------------------------
 
 
---- Databases ---
-() SQL -> Postgres
------------------
-
-
 --- Big Data ---
 () Python -> PySpark
 ----------------
+
+
+--- Databases ---
+() SQL -> Postgres
+-----------------
 
 
 --- GUI ---
@@ -55,8 +52,16 @@
 -----------
 
 
+--- Web Development ---
+() Python -> Django
+() HTML5
+() CSS3
+-----------------------
+
+
 --- Need to know ---
 - Git (Version Control System)
 - Linux (Operating System)
 - PyCharm (Integrated Development Environment)
 --------------------
+
